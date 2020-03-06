@@ -1,0 +1,20 @@
+{
+  "name": "desafio-babel-webpack",
+  "version": "1.0.0",
+  "description": "Desafio Babel Webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "Felipe Castro Richter",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
